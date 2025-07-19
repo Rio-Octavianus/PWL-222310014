@@ -1,0 +1,65 @@
+# 1. Version control
+.git/
+.gitignore
+
+# 2. Node.js dependencies
+node_modules/
+server/node_modules/
+
+# 3. Development artifacts
+.idea/
+.vscode/
+*.swp
+*.swo
+dist/
+build/
+out/
+tmp/
+temp/
+*.tmp
+
+# 4. Test and debug files
+test/
+tests/
+*.log
+debug/
+
+# 5. Environment and secrets
+.env*
+server/.env*
+*.env
+*.pem
+*.key
+*.crt
+config.local.*
+*.local.yml
+
+# 6. Documentation and project files
+docs/
+*.md
+README*
+
+# 7. Docker and Compose files
+Dockerfile*
+docker-compose*
+compose.yaml
+
+# 8. Miscellaneous
+.svn/
+.hg/
+.local/
+local/
+
+# 9. Ignore backup files
+*.bak
+
+# 10. Ignore public asset cache (if any)
+public/*.cache
+
+# 11. Ignore coverage and test cache (for completeness)
+.coverage
+.pytest_cache/
+
+# 12. Ignore OS generated files
+.DS_Store
+Thumbs.db
